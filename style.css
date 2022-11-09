@@ -7,11 +7,17 @@
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
-  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
-}  
+html, body {
+    height: 100%;
+    padding: 0;
+    background-image: url('afbeeldingen/wkachtergrond.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    color: rgb(red)
+    font: flama;
+    }
 
 body * {                          /* geldt voor alles in body */
   overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
@@ -43,10 +49,7 @@ p {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-body {
-background-image: url("wkachtergrond");
-
-}  
+  
   /* Indeling voor hoofd pagina */
 
 .kolomLinks {
@@ -81,7 +84,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {

@@ -10,7 +10,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-image: url('afbeeldingen/wkachtergrond.jpg');
+    background-image: url('afbeeldingen/AG1.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -77,7 +77,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: whitesmoke;
     text-decoration: none;
 }
 

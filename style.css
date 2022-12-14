@@ -93,6 +93,14 @@ a:hover {
     text-decoration: underline;
 }
 
+table, th, td {
+  border: 2px solid darkred;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: whitesmoke;
+}
+
 /* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;

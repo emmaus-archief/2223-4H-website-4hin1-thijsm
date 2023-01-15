@@ -121,16 +121,16 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: #919191;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #ff3f12;
+    background-color: #831100;
 }
 
 nav li a.active {
-    background-color: #ff2600;
+    background-color: #e32400;
 }
